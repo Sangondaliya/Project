@@ -162,6 +162,7 @@ while(True):
     print("speak select 2..for the amazing spriral")
     print("speak select 3..for analog clock ")
     print("speak exit to exit the program ")
+    speak("speak select ..")
 
     query = listen().lower()
 
